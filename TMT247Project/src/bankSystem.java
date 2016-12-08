@@ -65,6 +65,10 @@ public class bankSystem {
                     anum = s.nextInt();
                     bankApp.printTransactionInfo(anum);
                     break;
+                case 6:
+                    System.out.println("Thank You For Using Our Banking App. Have A Great Day!");
+                    System.exit(0);
+                    break;
                 default:
                     System.out.println("Invalid option. Please try again.");
 
